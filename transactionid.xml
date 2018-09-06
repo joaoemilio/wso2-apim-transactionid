@@ -1,0 +1,4 @@
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="WSO2AM--Ext--In">
+    <class name="com.wso2.apimanager.extension.TransactionIdGenarator"></class>
+    <header expression="get-property('TransactionID')" name="TRANSACTION_ID" scope="transport"/>
+</sequence>
